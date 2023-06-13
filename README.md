@@ -10,4 +10,4 @@ The Rasberri Pi Foundation has wonderful documentation for the Pico and Pico W b
 
 For quick reference, I have reproduced their Pinout Diagram here.  A larger better one is available as a PDF from the link above.
 Raspberry Pi Pico W: 
-![Pico W Pinout](https://github.com/MShankBeebe/Air-Quality-Monitor-Project/tree/main/images/PicoWPinouts.png)
+![Pico W Pinout](https://github.com/MShankBeebe/Air-Quality-Monitor-Project/blob/main/images/PicoWPinouts.png)
