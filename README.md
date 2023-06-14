@@ -1,5 +1,6 @@
-# Air Quality Monitor Project Overview
+# Air Quality Monitor Project
 
+## Overview
 I live in an area that frequently has problems with wildfire smoke and gets a lot of air quality alerts.  I thought it would be useful to make an air quality monitor.
 I am still learning Circuit Python, electronics, and how to work with Raspberry Pi Pico/Pico W, so this will be an ongoing project that I will update as I go.  I will be adding instructions
 and links to additional resources for any other curious people who would like to build their own air monitor and/or learn with me.
@@ -28,8 +29,8 @@ Raspberry Pi Pico W Pinout diagram:
 Soldering is a tricky thing and takes time, patience, and practice.  One of the reasons I like the Pico boards is that they do require a lot of soldering and therefore give me lots of practice.  Because they are relatively inexpensive, it's a good chip to start with.  The SGP30 chip is more expensive, so if you are new to soldering, make sure to practice soldering before you attempt to solder the pins onto this chip.
 
 Here are some helpful links:  
-*[Adafruit Guide To Excellent Soldering](https://www.techtarget.com/iotagenda/definition/microcontroller)  
-*[Tom's Hardware: How To Solder Pins to Your Raspberry Pi Pico](https://www.tomshardware.com/how-to/solder-pins-raspberry-pi-pico#:~:text=Bring%20the%20tip%20of%20the,on%20the%20sponge%20%2F%20brass%20cleaner.)
+* [Adafruit Guide To Excellent Soldering](https://www.techtarget.com/iotagenda/definition/microcontroller)  
+* [Tom's Hardware: How To Solder Pins to Your Raspberry Pi Pico](https://www.tomshardware.com/how-to/solder-pins-raspberry-pi-pico#:~:text=Bring%20the%20tip%20of%20the,on%20the%20sponge%20%2F%20brass%20cleaner.)
 
 ## Hardware Setup For The Project
 ### What You Will Need
