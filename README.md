@@ -28,8 +28,8 @@ Raspberry Pi Pico W Pinout diagram:
 Soldering is a tricky thing and takes time, patience, and practice.  One of the reasons I like the Pico boards is that they do require a lot of soldering and therefore give me lots of practice.  Because they are relatively inexpensive, it's a good chip to start with.  The SGP30 chip is more expensive, so if you are new to soldering, make sure to practice soldering before you attempt to solder the pins onto this chip.
 
 Here are some helpful links:
-[Adafruit Guide To Excellent Soldering](https://www.techtarget.com/iotagenda/definition/microcontroller)
-[Tom's Hardware: How To Solder Pins to Your Raspberry Pi Pico](https://www.tomshardware.com/how-to/solder-pins-raspberry-pi-pico#:~:text=Bring%20the%20tip%20of%20the,on%20the%20sponge%20%2F%20brass%20cleaner.)
+*[Adafruit Guide To Excellent Soldering](https://www.techtarget.com/iotagenda/definition/microcontroller)
+*[Tom's Hardware: How To Solder Pins to Your Raspberry Pi Pico](https://www.tomshardware.com/how-to/solder-pins-raspberry-pi-pico#:~:text=Bring%20the%20tip%20of%20the,on%20the%20sponge%20%2F%20brass%20cleaner.)
 
 ## Hardware Setup For The Project
 ### What You Will Need
@@ -42,4 +42,13 @@ Here are some helpful links:
 ### Basic Setup with Pico W and SGP30 Chip
 Solder the male header pins to the Pico W and the SGP30.  Here is the basic configuration:
 ![Basic Configuration](https://github.com/MShankBeebe/Air-Quality-Monitor-Project/blob/main/images/Monitor1.jpg)
+
+*I connected the VIN pin on the SGP30 to pin 36 on the Pico with the red wire
+*I connected the GND (ground) pin on the SGP30 to pin 38 on the Pico with the black wire
+*I connected the SCL pin (12C clock pin) on the SGP30 to pin 7, also known as GP5, on the Pico W with the blue wire (GP5 is the official name of that pin and it becomes more important when we write the actual code)
+*I connected the SDA pin on the SGP30 to pin 6, also known as GP4, with the green wire
+
+
+
+
 
