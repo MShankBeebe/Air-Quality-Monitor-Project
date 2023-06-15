@@ -38,7 +38,9 @@ Here are some helpful links:
 2.  1 USB cord that can transfer data
 3.  1 breadboard
 4.  wires (I prefer male to male jumper wires)
-5.  A computer with the latest version of Circuit Python installed and an IDE that can work with it and boards, like MU (what I used)
+5.  An SGP30 chip
+6.  A computer with the latest version of Circuit Python installed and an IDE that can work with it and boards, like MU (what I used)
+
 
 ### Basic Setup with Pico W and SGP30 Chip
 Solder the male header pins to the Pico W and the SGP30.  Here is the basic configuration:
@@ -49,6 +51,22 @@ Solder the male header pins to the Pico W and the SGP30.  Here is the basic conf
 + I connected the SCL pin (12C clock pin) on the SGP30 to pin 7, also known as GP5, on the Pico W with the blue wire (GP5 is the official name of that pin and it becomes more important when we write the actual code)
 + I connected the SDA pin on the SGP30 to pin 6, also known as GP4, with the green wire
 
+## Software Setup for the project
+Connect your Pico W to your computer with the USB, then press the bootsel button on the Pico W (the large white button near the USB port).
 
+The easiest way to get the code is to download the project bundle for a similar project from Adafruit [here](https://learn.adafruit.com/adafruit-sgp30-gas-tvoc-eco2-mox-sensor/circuitpython-wiring-test#circuitpython-and-python-usage-2980170). 
+ 
+Open the Circuit Python 8.x file and drag and drop the files in that folder to the Pico W (which should show up as its own drive in your file manager).
+
+Open the main code in your IDE, and scroll down a few lines until you see
+'''
+i2c = busio.I2C(board.SCL, board.SDA, frequency=100000)
+'''
+
+We are going to change it to the input pins we selected, in this case, GP4 and GP5 like so:  
+'''
+i2c = busio.I2C(board.GP5, board.GP4, frequency=100000)
+'''
+Save and run the code, you should get the output in the REPL.
 
 
