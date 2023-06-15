@@ -59,14 +59,14 @@ The easiest way to get the code is to download the project bundle for a similar 
 Open the Circuit Python 8.x file and drag and drop the files in that folder to the Pico W (which should show up as its own drive in your file manager).
 
 Open the main code in your IDE, and scroll down a few lines until you see
-'''
+```
 i2c = busio.I2C(board.SCL, board.SDA, frequency=100000)
-'''
+```
 
 We are going to change it to the input pins we selected, in this case, GP4 and GP5 like so:  
-'''
+```
 i2c = busio.I2C(board.GP5, board.GP4, frequency=100000)
-'''
+```
 Save and run the code, you should get the output in the REPL.
 
 
