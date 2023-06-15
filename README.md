@@ -54,7 +54,7 @@ Solder the male header pins to the Pico W and the SGP30.  Here is the basic conf
 ## Software Setup for the project
 Connect your Pico W to your computer with the USB, then press the bootsel button on the Pico W (the large white button near the USB port).
 
-The easiest way to get the code is to download the project bundle for a similar project from Adafruit [here](https://learn.adafruit.com/adafruit-sgp30-gas-tvoc-eco2-mox-sensor/circuitpython-wiring-test#circuitpython-and-python-usage-2980170). 
+While I will be adding sensors and additional functionality, up to this point we have basically adapted an Adafruit project to the Pico W specifically, so the easiest way to get the code is to download the project bundle for that Adafruit project [here](https://learn.adafruit.com/adafruit-sgp30-gas-tvoc-eco2-mox-sensor/circuitpython-wiring-test#circuitpython-and-python-usage-2980170). 
  
 Open the Circuit Python 8.x file and drag and drop the files in that folder to the Pico W (which should show up as its own drive in your file manager).
 
